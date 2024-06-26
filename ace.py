@@ -9,3 +9,6 @@ with open(csv_file_path, mode='r', newline='', encoding='utf-8') as file:
         text_rule_body = row['text_rule_body']
         new_line_count = text_rule_body.count('\n')
         print(f"pri_key: {pri_key}, New line count: {new_line_count}")
+
+    print("hello")
+    print(2+3)
